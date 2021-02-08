@@ -30,12 +30,16 @@ $ yaso -d test.zip -o test
     - gz
     - tar.gz
 - Algorithm support
-    - ~~A~~
-    - ~~B~~
+    - compress and decompress algorithm(s)
+    - crypt and decrypt algorithm(s)
 
 ## Graph
 
+Please visit [yaso.km](#./yaso.km).
 
+## TODO
+
+- Graphical interface
 
 ## Credit
 
