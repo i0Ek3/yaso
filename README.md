@@ -5,19 +5,21 @@
 
 ## Usage
 
+> [undo]
+
 ```Python
 $ yaso -c test test.zip
 $ yaso -d test.zip -o test
 
 ```
 
-## Build
+## Run
 
 `$ python3 main.py`
 
 ## Features
 
-> Do not expect we will implement it all.
+> [undo] Do not expect we can implement it all.
 
 - Parameterization 
     - -c, compress
@@ -31,6 +33,7 @@ $ yaso -d test.zip -o test
     - tar.gz
 - Algorithm support
     - compress and decompress algorithm(s)
+        - RLE
     - crypt and decrypt algorithm(s)
 
 ## Graph
