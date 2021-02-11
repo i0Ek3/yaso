@@ -9,8 +9,8 @@ def RLE(ori_str):
     for c in ori_str:
        count_dict[c] += 1
 
-    encoded_str= ""
+    encoded_str = ""
     for key, value in count_dict.items():
-       encoded_str+= key + str(value)
+       encoded_str += key + str(value)
 
     return encoded_str
