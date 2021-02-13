@@ -1,17 +1,16 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-import yaso
 import utils as u
 
 
 def main():
-    uncompressed = "ABBCCCDDDD"
+    uncompressed = "ABBCCCDDDDEEEEEEFFFFFFFFFFFFf"
     u.compress_ratio(uncompressed)
-    u.length_ration(uncompressed)
+    u.length_ratio(uncompressed)
 
-    uncompressed = "ABCDCVCDBDADEDRT"
+    uncompressed = "ABCDCVCDBDADEDRTSDFLHKEDSIUILSDF"
     u.compress_ratio(uncompressed)
-    u.length_ration(uncompressed)
+    u.length_ratio(uncompressed)
 
 main()
